@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<corpusMetadata xmlns="http://www.example.org/corpus-metadata"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                xsi:schemaLocation="http://www.example.org/corpus-metadata corpus-metadata.xsd">
+
+    <corpusName>Clean Turkish Mixed-Source Corpus</corpusName>
+
+    <description>
+        This corpus is a cleaned and segmented version of multiple publicly available Turkish corpora.
+        It includes texts from Turkish Wikipedia, the Bilkent Turkish Writings Dataset, and translated novels.
+        The current version has no linguistic annotations beyond tokenization.
+    </description>
+
+    <language code="tr">Turkish</language>
+
+    <originalSources>
+        <source>
+            <title>Turkish Wikipedia Dump</title>
+            <url>https://dumps.wikimedia.org/</url>
+            <license>
+                <name>Creative Commons Attribution-ShareAlike 3.0</name>
+                <url>https://creativecommons.org/licenses/by-sa/3.0/</url>
+            </license>
+        </source>
+        <source>
+            <title>Bilkent Turkish Writings Dataset</title>
+            <url>https://github.com/selimfirat/bilkent-turkish-writings-dataset</url>
+            <license>
+                <name>Unknown</name>
+                <note>Original dataset does not specify a license. Use with caution for redistribution.</note>
+            </license>
+        </source>
+        <source>
+            <title>Translated Novels in Turkish</title>
+            <url>https://www.kaggle.com/datasets/redrussianarmy/translated-books-in-turkish</url>
+            <license>
+                <name>GPL-2</name>
+                <url>https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html</url>
+            </license>
+        </source>
+    </originalSources>
+
+    <processing>
+        <segmentation>true</segmentation>
+        <cleaning>true</cleaning>
+        <annotation>false</annotation>
+        <note>Only minor preprocessing (tokenization, segmentation). No linguistic annotations in this version.</note>
+    </processing>
+
+    <createdBy>
+        <name>Hakan Boğan</name>
+        <url>https://www.kaggle.com/redrussianarmy</url>
+        <note>Original uploader. This corpus is compiled from external sources and published under GPL-2.</note>
+    </createdBy>
+
+    <creationDate>2025-04-30</creationDate>
+
+    <version>1.0-clean</version>
+
+    <license>
+        <name>GPL-2</name>
+        <url>https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html</url>
+        <note>Applies to this compiled dataset. Users must ensure compliance with each original source's license.</note>
+    </license>
+
+    <distribution>
+        <available>true</available>
+        <platform>Kaggle</platform>
+        <url>https://www.kaggle.com/datasets/redrussianarmy/turkish-corpus</url>
+        <note>This version is publicly distributed via Kaggle under GPL-2. Redistribution must preserve original attribution and comply with source licenses.</note>
+    </distribution>
+
+    <notes>
+        Future versions may include partial annotations. Users are responsible for verifying and complying with licenses of all original source texts.
+    </notes>
+
+</corpusMetadata>
