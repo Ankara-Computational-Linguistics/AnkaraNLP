@@ -590,115 +590,115 @@
 41-5	3096-3097	.	*	PUNCT	
 
 #Text=Gözümden kaçan bir şey mi var. diye sordum şaşkınlıkla.
-42-1	3098-3106	Gözümden	_	_	
-42-2	3107-3112	kaçan	_	_	
-42-3	3113-3116	bir	_	_	
-42-4	3117-3120	şey	_	_	
-42-5	3121-3123	mi	_	_	
-42-6	3124-3127	var	_	_	
-42-7	3127-3128	.	_	_	
-42-8	3129-3133	diye	_	_	
-42-9	3134-3140	sordum	_	_	
-42-10	3141-3152	şaşkınlıkla	_	_	
-42-11	3152-3153	.	_	_	
+42-1	3098-3106	Gözümden	*	NOUN	
+42-2	3107-3112	kaçan	*	NOUN	
+42-3	3113-3116	bir	*	DET	
+42-4	3117-3120	şey	*	NOUN	
+42-5	3121-3123	mi	*	PART	
+42-6	3124-3127	var	*	VERB	
+42-7	3127-3128	.	*	PUNCT	
+42-8	3129-3133	diye	*	SCONJ	
+42-9	3134-3140	sordum	*	VERB	
+42-10	3141-3152	şaşkınlıkla	*	ADV	
+42-11	3152-3153	.	*	PUNCT	
 
 #Text=Gözden kaçırmış olabileceğim önemli bir şey olduğunu sanmıyorum.
-43-1	3154-3160	Gözden	_	_	
-43-2	3161-3169	kaçırmış	_	_	
-43-3	3170-3182	olabileceğim	_	_	
-43-4	3183-3189	önemli	_	_	
-43-5	3190-3193	bir	_	_	
-43-6	3194-3197	şey	_	_	
-43-7	3198-3206	olduğunu	_	_	
-43-8	3207-3217	sanmıyorum	_	_	
-43-9	3217-3218	.	_	_	
+43-1	3154-3160	Gözden	*	NOUN	
+43-2	3161-3169	kaçırmış	*	VERB	
+43-3	3170-3182	olabileceğim	*	VERB	
+43-4	3183-3189	önemli	*	ADJ	
+43-5	3190-3193	bir	*	DET	
+43-6	3194-3197	şey	*	NOUN	
+43-7	3198-3206	olduğunu	*	VERB	
+43-8	3207-3217	sanmıyorum	*	VERB	
+43-9	3217-3218	.	*	PUNCT	
 
 #Text=Üzgünüm sevgili Watson ama, vardığın sonuçların çoğu yanlış.
-44-1	3219-3226	Üzgünüm	_	_	
-44-2	3227-3234	sevgili	_	_	
-44-3	3235-3241	Watson	_	_	
-44-4	3242-3245	ama	_	_	
-44-5	3245-3246	,	_	_	
-44-6	3247-3255	vardığın	_	_	
-44-7	3256-3266	sonuçların	_	_	
-44-8	3267-3271	çoğu	_	_	
-44-9	3272-3278	yanlış	_	_	
-44-10	3278-3279	.	_	_	
+44-1	3219-3226	Üzgünüm	*	VERB	
+44-2	3227-3234	sevgili	*	ADJ	
+44-3	3235-3241	Watson	*	PROPN	
+44-4	3242-3245	ama	*	CCONJ	
+44-5	3245-3246	,	*	PUNCT	
+44-6	3247-3255	vardığın	*	ADJ	
+44-7	3256-3266	sonuçların	*	NOUN	
+44-8	3267-3271	çoğu	*	ADJ	
+44-9	3272-3278	yanlış	*	NOUN	
+44-10	3278-3279	.	*	PUNCT	
 
 #Text=Doğrusunu söylemek gerekirse, beni kışkırttığından söz ederken yanlışlarını gördüğümden, beni gerçeğe götürdüğünü söylemek istemiştim.
-45-1	3280-3289	Doğrusunu	_	_	
-45-2	3290-3298	söylemek	_	_	
-45-3	3299-3308	gerekirse	_	_	
-45-4	3308-3309	,	_	_	
-45-5	3310-3314	beni	_	_	
-45-6	3315-3330	kışkırttığından	_	_	
-45-7	3331-3334	söz	_	_	
-45-8	3335-3342	ederken	_	_	
-45-9	3343-3355	yanlışlarını	_	_	
-45-10	3356-3367	gördüğümden	_	_	
-45-11	3367-3368	,	_	_	
-45-12	3369-3373	beni	_	_	
-45-13	3374-3381	gerçeğe	_	_	
-45-14	3382-3393	götürdüğünü	_	_	
-45-15	3394-3402	söylemek	_	_	
-45-16	3403-3413	istemiştim	_	_	
-45-17	3413-3414	.	_	_	
+45-1	3280-3289	Doğrusunu	*	NOUN	
+45-2	3290-3298	söylemek	*	VERB	
+45-3	3299-3308	gerekirse	*	ADV	
+45-4	3308-3309	,	*	PUNCT	
+45-5	3310-3314	beni	*	PRON	
+45-6	3315-3330	kışkırttığından	*	VERB	
+45-7	3331-3334	söz	*	NOUN	
+45-8	3335-3342	ederken	*	VERB	
+45-9	3343-3355	yanlışlarını	*	NOUN	
+45-10	3356-3367	gördüğümden	*	VERB	
+45-11	3367-3368	,	*	PUNCT	
+45-12	3369-3373	beni	*	PRON	
+45-13	3374-3381	gerçeğe	*	NOUN	
+45-14	3382-3393	götürdüğünü	*	VERB	
+45-15	3394-3402	söylemek	*	VERB	
+45-16	3403-3413	istemiştim	*	VERB	
+45-17	3413-3414	.	*	PUNCT	
 
 #Text=Bu meselede tamamıyla yanılıyorsun demiyorum.
-46-1	3415-3417	Bu	_	_	
-46-2	3418-3426	meselede	_	_	
-46-3	3427-3436	tamamıyla	_	_	
-46-4	3437-3449	yanılıyorsun	_	_	
-46-5	3450-3459	demiyorum	_	_	
-46-6	3459-3460	.	_	_	
+46-1	3415-3417	Bu	*	DET	
+46-2	3418-3426	meselede	*	NOUN	
+46-3	3427-3436	tamamıyla	*	ADV	
+46-4	3437-3449	yanılıyorsun	*	VERB	
+46-5	3450-3459	demiyorum	*	VERB	
+46-6	3459-3460	.	*	PUNCT	
 
 #Text=Adamın bir köy doktoru olduğundan kuşku yok.
-47-1	3461-3467	Adamın	_	_	
-47-2	3468-3471	bir	_	_	
-47-3	3472-3475	köy	_	_	
-47-4	3476-3483	doktoru	_	_	
-47-5	3484-3494	olduğundan	_	_	
-47-6	3495-3500	kuşku	_	_	
-47-7	3501-3504	yok	_	_	
-47-8	3504-3505	.	_	_	
+47-1	3461-3467	Adamın	*	NOUN	
+47-2	3468-3471	bir	*	DET	
+47-3	3472-3475	köy	*	NOUN	
+47-4	3476-3483	doktoru	*	NOUN	
+47-5	3484-3494	olduğundan	*	VERB	
+47-6	3495-3500	kuşku	*	NOUN	
+47-7	3501-3504	yok	*	VERB	
+47-8	3504-3505	.	*	PUNCT	
 
 #Text=Çok yürüdüğü de belli.
-48-1	3506-3509	Çok	_	_	
-48-2	3510-3518	yürüdüğü	_	_	
-48-3	3519-3521	de	_	_	
-48-4	3522-3527	belli	_	_	
-48-5	3527-3528	.	_	_	
+48-1	3506-3509	Çok	*	ADV	
+48-2	3510-3518	yürüdüğü	*	VERB	
+48-3	3519-3521	de	*	PART	
+48-4	3522-3527	belli	*	ADV	
+48-5	3527-3528	.	*	PUNCT	
 
 #Text=O halde yanılmamışım.
-49-1	3529-3530	O	_	_	
-49-2	3531-3536	halde	_	_	
-49-3	3537-3549	yanılmamışım	_	_	
-49-4	3549-3550	.	_	_	
+49-1	3529-3530	O	*	PRON	
+49-2	3531-3536	halde	*	NOUN	
+49-3	3537-3549	yanılmamışım	*	VERB	
+49-4	3549-3550	.	*	PUNCT	
 
 #Text=Buraya kadar evet.
-50-1	3551-3557	Buraya	_	_	
-50-2	3558-3563	kadar	_	_	
-50-3	3564-3568	evet	_	_	
-50-4	3568-3569	.	_	_	
+50-1	3551-3557	Buraya	*	PRON	
+50-2	3558-3563	kadar	*	ADP	
+50-3	3564-3568	evet	*	INTJ	
+50-4	3568-3569	.	*	PUNCT	
 
 #Text=Ama, başka bir şey söylemedim ki ben.
-51-1	3570-3573	Ama	_	_	
-51-2	3573-3574	,	_	_	
-51-3	3575-3580	başka	_	_	
-51-4	3581-3584	bir	_	_	
-51-5	3585-3588	şey	_	_	
-51-6	3589-3599	söylemedim	_	_	
-51-7	3600-3602	ki	_	_	
-51-8	3603-3606	ben	_	_	
-51-9	3606-3607	.	_	_	
+51-1	3570-3573	Ama	*	SCONJ	
+51-2	3573-3574	,	*	PUNCT	
+51-3	3575-3580	başka	*	ADJ	
+51-4	3581-3584	bir	*	DET	
+51-5	3585-3588	şey	*	NOUN	
+51-6	3589-3599	söylemedim	*	VERB	
+51-7	3600-3602	ki	*	PART	
+51-8	3603-3606	ben	*	PRON	
+51-9	3606-3607	.	*	PUNCT	
 
 #Text=Hayır, öyle değil sevgili Watson, iş bu kadarla bitmiyor. olursa, ister istemez insanın aklına Charing Cross geliyor.
-52-1	3608-3613	Hayır	_	_	
-52-2	3613-3614	,	_	_	
-52-3	3615-3619	öyle	_	_	
-52-4	3620-3625	değil	_	_	
-52-5	3626-3633	sevgili	_	_	
-52-6	3634-3640	Watson	_	_	
+52-1	3608-3613	Hayır	*	INTJ	
+52-2	3613-3614	,	*	PUNCT	
+52-3	3615-3619	öyle	*	ADV	
+52-4	3620-3625	değil	*	AUX	
+52-5	3626-3633	sevgili	*	NOUN	
+52-6	3634-3640	Watson	*	PROPN	
 52-7	3640-3641	,	_	_	
 52-8	3642-3644	iş	_	_	
 52-9	3645-3647	bu	_	_	
